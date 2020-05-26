@@ -9,3 +9,19 @@ footer {
     background-color: lightgray;
     text-align: center;
 }
+@media (max-width:991px) and (min-width:768px) {
+    .welcome {
+        font-size: 24px;
+    }
+    .hello {
+        font-size: 24px;
+    }
+}
+@media (max-width:767px) {
+    .welcome {
+        font-size: 18px;
+    }
+    .hello {
+        font-size: 18px;
+    }
+}
