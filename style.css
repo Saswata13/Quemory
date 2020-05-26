@@ -5,9 +5,7 @@ body {
     font-size: 30px;
     font-weight: 900;
 }
-#container {
-    position: relative;
-}
-#animate {
-    position: absolute;
+footer {
+    background-color: lightgray;
+    text-align: center;
 }
