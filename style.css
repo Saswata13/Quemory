@@ -1,0 +1,13 @@
+body {
+    background-image: url("pic2.jpg");
+}
+.navbar-brand {
+    font-size: 30px;
+    font-weight: 900;
+}
+#container {
+    position: relative;
+}
+#animate {
+    position: absolute;
+}
