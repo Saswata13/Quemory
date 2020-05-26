@@ -9,9 +9,9 @@ footer {
     background-color: lightgray;
     text-align: center;
 }
-.logo {
-    width: 10px;
-    height: 10px;
+.letter {
+    font-size: 5em;
+    font-family: 'Times New Roman', Times, serif;
 }
 @media (max-width:991px) and (min-width:768px) {
     .welcome {
