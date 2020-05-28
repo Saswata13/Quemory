@@ -58,7 +58,7 @@ function deleteNote(index) {
     else {
         notesObj = JSON.parse(notes);
     }
-
+    confirm("Are you sure that you want to delete this?");
     notesObj.splice(index, 1);
     localStorage.setItem("notes", JSON.stringify(notesObj));
     showNotes();
